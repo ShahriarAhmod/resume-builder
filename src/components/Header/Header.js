@@ -16,7 +16,7 @@ function Header() {
         </p>
       </div>
       <div className={styles.right}>
-        <img src={resumeSvg} alt="Resume" />
+        <img style={{width: '100%'}} src={resumeSvg} alt="Resume" />
       </div>
     </div>
   );
