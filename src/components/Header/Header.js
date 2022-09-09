@@ -1,6 +1,6 @@
 import React from "react";
 
-import resumeSvg from "../../assets/resume.svg";
+import resumeSvg from "../../assets/resume1.png";
 
 import styles from "./Header.module.css";
 
