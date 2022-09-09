@@ -1,0 +1,14 @@
+.text{
+    font-weight: 100;
+    text-align: center ;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  background-clip: text;
+  background-image: linear-gradient(to right, #5cb8ee, #1369b9);
+  color: transparent;
+}
+.text-span{
+    background-clip: text;
+  background-image: linear-gradient(to right, #36a2e0, #3684cc, #3289da);
+  color: transparent;
+}
