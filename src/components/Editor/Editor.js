@@ -186,7 +186,7 @@ function Editor(props) {
         <InputControl
           label="Title"
           value={values.title}
-          placeholder="Enter title eg. B-tech"
+          placeholder="Enter title eg. B.Sc"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
@@ -227,7 +227,7 @@ function Editor(props) {
       <div className={styles.row}>
         <InputControl
           label="Name"
-          placeholder="Enter your full name eg. Aashu"
+          placeholder="Enter your full name eg. Akash"
           value={values.name}
           onChange={(event) =>
             setValues((prev) => ({ ...prev, name: event.target.value }))
@@ -354,6 +354,7 @@ function Editor(props) {
   };
 
   const handleSubmission = () => {
+    // eslint-disable-next-line default-case
     switch (sections[activeSectionKey]) {
       case sections.basicInfo: {
         const tempDetail = {
